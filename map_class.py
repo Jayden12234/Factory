@@ -2,8 +2,9 @@
 import random
 
 class Map:
-    def __init__(self, conv_key, har_key, slm_key):
+    def __init__(self, conv_key, har_key, slm_key, mat_key):
         self.size = [15,15]
+        self.mat_key = mat_key
         self.map = [[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
                     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
                     [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -22,4 +23,8 @@ class Map:
         self.conv_key = conv_key
         self.har_key = har_key
         self.slm_key = slm_key
-    
+    def map_gen(self):
+        for i in range(size[0]):
+            for j in range(size[1]):
+                if random.randint(0,10)==2:
+                    self.map[j][i] = self.mat_key
