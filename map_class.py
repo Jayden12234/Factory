@@ -24,7 +24,7 @@ class Map:
         self.har_key = har_key
         self.slm_key = slm_key
     def map_gen(self):
-        for i in range(size[0]):
-            for j in range(size[1]):
+        for i in range(self.size[0]):
+            for j in range(self.size[1]):
                 if random.randint(0,10)==2:
                     self.map[j][i] = self.mat_key
