@@ -22,16 +22,17 @@ functions:
     output == writes map to output file
 variables:
     conv_key = convery key
-    har_key = harvest key
     slm_key = semlter key
     res_key = resource key
-
-
 Resource class:
-handles what resource are in the node what rate of extraction 
+handles what resource are in the node what rate of extraction
+functions:
+    __init__ intalives values
+variables:
+    map refers to the map class
+    pos referes to the postion on the map
+    out_dic referd to the fircetion it outputs
 Convery class:
-
-Harvest class:
 
 selmter class:
 
