@@ -31,7 +31,7 @@ functions:
     __init__(self,map,pos,out_dic) intalives values
     write(self)=wries value to the map bases on it posistion
     add_conv(self,conv)=add the convery to output to 
-    send_obj(self)=sends an obj to convery 
+    send_obj(self)=sends an obj(metal) to convery 
 variables:
     map refers to the map class
     pos referes to the postion on the map
