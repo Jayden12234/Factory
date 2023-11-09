@@ -24,6 +24,7 @@ class Map:
         self.conv_key = conv_key
         self.har_key = har_key
         self.slm_key = slm_key
+        self.res = 'metal'
     def map_gen(self):
         for i in range(self.size[0]):
             for j in range(self.size[1]):

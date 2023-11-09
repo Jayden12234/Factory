@@ -24,6 +24,7 @@ variables:
     conv_key = convery key
     slm_key = semlter key
     res_key = resource key
+    res = the only resource in game
 Resource class:
 handles what resource are in the node what rate of extraction
 functions:
