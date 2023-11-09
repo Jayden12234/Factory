@@ -36,6 +36,7 @@ variables:
     map refers to the map class
     pos referes to the postion on the map
     out_dic referd to the fircetion it outputs
+    conv is made in add_conv function if valid 
 Convery class:
 
 selmter class:
