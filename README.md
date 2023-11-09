@@ -16,10 +16,10 @@ Dev plans:
 Map class:
 handles display and storing the map
 functions:
-    __init__() == intalize values
-    map_gen()==add resource nodes to map
-    write_val==writes a val to a postion
-    output == writes map to output file
+    __init__(self,conv_key,har_key,slm_key,mat_key,out_f) == intalize values
+    map_gen(self)==add resource nodes to map
+    write_val(self,pos,val)==writes a val to a postion
+    output(self) == writes map to output file
 variables:
     conv_key = convery key
     slm_key = semlter key
