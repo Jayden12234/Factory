@@ -20,6 +20,12 @@ functions:
     map_gen()==add resource nodes to map
     write_val==writes a val to a postion
     output == writes map to output file
+variables:
+    conv_key = convery key
+    har_key = harvest key
+    slm_key = semlter key
+    res_key = resource key
+
 
 Resource class:
 handles what resource are in the node what rate of extraction 
