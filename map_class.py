@@ -31,3 +31,7 @@ class Map:
                     self.map[j][i] = self.mat_key
     def write_val(self,pos,val):
         self.map[pos[1]][pos[0]] = val
+    def output(self):
+        with open(self.out_f, 'w') as file:
+            for i in range(self.size[1]):
+                file.write(str(self.map[i]))
