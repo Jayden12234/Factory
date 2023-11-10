@@ -37,8 +37,13 @@ variables:
     pos referes to the postion on the map
     out_dic referd to the fircetion it outputs
     conv is made in add_conv function if valid 
-Convery class:
+Coneyer class:
+functions:
+    __init__(self, pos,dic) inlaizes key values
 
+variables:
+    pos is it position on the map
+    dic is dicretion it is pointing
 selmter class:
 
 
