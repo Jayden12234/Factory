@@ -40,10 +40,13 @@ variables:
 Coneyer class:
 functions:
     __init__(self, pos,dic) inlaizes key values
-
+    add_conv and next coveyer in line
+    send_obj send the object to the next coneyer in line
 variables:
     pos is it position on the map
     dic is dicretion it is pointing
+    conv is the next coneyer in line
+    obj is used to transfer objects 
 selmter class:
 
 
