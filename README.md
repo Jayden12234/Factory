@@ -48,8 +48,13 @@ variables:
     conv is the next coneyer in line
     obj is used to transfer objects 
 selmter class:
+function:
+    __init__(self,pos,dic)
+variables:
+    pos position on map
+    dic is dircetion of input output
 
-
+ 
 
 Input class:
 
